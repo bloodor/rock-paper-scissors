@@ -4,9 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="./rps.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./rps.js" defer></script>
 </head>
-<body>
-    
+<body>$
+    <div id="main">
+        <div id="buttons">
+            <button class="playerButton" id="rock"></button>
+            <button class="playerButton" id="paper"></button>
+            <button class="playerButton" id="scissors"></button>    
+        </div>
+        <div>
+            <p id="result">Waiting for the first round to be played</p>
+            <div id="scores">
+                <p id="playerScore">Player score: 0</p>
+                <p id="computerScore">Computer score: 0</p>
+            </div>
+        </div>    
+    </div>
+    <div id="footer">
+        Made by <a href="https://github.com/bloodor/">Bloodor</a> as part of <a href="https://www.theodinproject.com/">The Odin Project</a>
+    </div>
 </body>
 </html>

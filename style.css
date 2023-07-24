@@ -1,0 +1,81 @@
+body {
+    background-image: url('./ressources/crumpled-paper.jpg');
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 350px;
+}
+
+.playerButton {
+    padding: 15px 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    border: 6px solid grey;
+    box-shadow: 10px 10px 5px rgb(75, 75, 75);
+}
+
+#rock {
+    background-image: url(./ressources/rock.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#paper {
+    background-image: url(./ressources/paper.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#scissors {
+    background-image: url(./ressources/scissors.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#buttons {
+    display: flex;
+    margin: auto;
+    gap: 50px;
+}
+
+button img {
+    height: 140px;
+}
+
+#scores,
+#result {
+    font-size: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#scores {
+    gap: 40px;
+}
+
+#footer {
+    color: black;
+    background-color: rgb(228, 226, 226);
+    font-size: 32px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+a {
+    text-decoration: underline;
+    color: grey;
+}
